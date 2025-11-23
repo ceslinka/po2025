@@ -1,16 +1,16 @@
 package symulator;
 
 public class Sprzeglo extends Komponent {
-    private boolean StanSprzegla;
+    private boolean stanSprzegla;
     public Sprzeglo(String nazwa, Double waga, Double cena) {
         super(nazwa, waga, cena);
-        this.StanSprzegla = false;
+        this.stanSprzegla = false;
     }
     public void wcisnij(){
-        StanSprzegla = true;
+        stanSprzegla = true;
     }
     public void zwolnij(){
-        StanSprzegla = false;
+        stanSprzegla = false;
     }
 
 }

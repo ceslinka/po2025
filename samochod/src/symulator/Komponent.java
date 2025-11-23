@@ -13,7 +13,6 @@ public abstract class Komponent {
     public String getNazwa() {
         return nazwa;
     }
-
     public Double getWaga() {
         return waga;
     }
